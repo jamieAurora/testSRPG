@@ -1,0 +1,79 @@
+.square
+{
+  height: 200px;
+  width: 300px;
+  background-color: grey;
+  position: absolute;
+  top: 300px;
+  right: 350px;
+}
+.gridSquare
+{
+border: 1px solid black;
+width: 40px;
+height: 40px;
+background-color: orange;
+z-index: 1;
+opacity: 0.5;
+}
+.button
+{
+}
+#backgroundGrid
+{
+  position: absolute;
+  z-index: 15;
+  margin: auto;
+  left: 10%;
+  top: 0%;
+}
+#marker
+{
+  color: red;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid red;
+  z-index:3;
+}
+#Artoria
+{
+  position: absolute;
+  z-index:2;
+}
+#Bunyan
+{
+  position: absolute;
+  z-index:2;
+}
+#characterSpace
+{
+  z-index:2;
+  left: 100px;
+}
+#Enemy1
+{
+  position: absolute;
+  z-index:2;
+}
+#menuPosition
+{
+  z-index: 20;
+  position: absolute;
+  max-width: 20px;
+}
+#menuPosition button:focus
+{
+  background: blue;
+  color: white;
+}
+#container
+{
+  margin: auto;
+}
+#button button:focus
+{
+  background: pink;
+  color: red;
+
+}
